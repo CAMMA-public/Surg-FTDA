@@ -186,3 +186,6 @@ Evaluate the model’s performance on triplet or phase recognition tasks:
     ```bash
     python Discrimination/evaluate/evaluate_phase.py
     ```
+
+## Acknowledgments
+This repository is based on [SurgVLP](https://github.com/CAMMA-public/SurgVLP), [CLIP](https://github.com/openai/CLIP), and [CapDec](https://github.com/DavidHuji/CapDec) repositories.
