@@ -1,7 +1,7 @@
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
 import json
 # Load the JSON file
-input_json = "/home/ubuntu/meddataset/choelc_generate/phase_test/v2/clip/inference_noise_0015/translations_final.json"
+input_json = "/home/ubuntu/meddataset/choelc_generate/phase_test/v2/nip3/image_inference_kmeans500/translations_148.json"
 
 # Load the data
 with open(input_json, "r") as f:

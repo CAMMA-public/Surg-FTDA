@@ -20,7 +20,7 @@ unique_triplet_count, unique_triplets = count_unique_triplets(lines)
 unique_triplets_list = list(unique_triplets)
 print(len(unique_triplets_list))
 
-file_path = "/home/ubuntu/meddataset/choelc_generate/combine/v2/triplet/inference_kmeans500v2/translations_final.json"
+file_path = "/home/ubuntu/meddataset/choelc_generate/triplet_test/partial/50/translations_final.json"
 
 
 generated_triplets = []

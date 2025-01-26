@@ -202,7 +202,7 @@ def main():
 
     parser = argparse.ArgumentParser()
     # Checkpoint path
-    parser.add_argument('--checkpoint', default='/home/ubuntu/meddataset/cholec_process/model_combine/v2/noise0text/coco_prefix-007.pt')
+    parser.add_argument('--checkpoint', default='/home/ubuntu/meddataset/cholec_process/model_triplet/partial/10/coco_prefix-007.pt')
     # Output path is no longer used, remove if desired
     parser.add_argument('--out', default='')
     # Dataset mode
@@ -222,9 +222,9 @@ def main():
     parser.add_argument('--mapping_type', type=str, default='transformer_encoder', help='mlp/transformer_encoder/transformer_decoder')
     # Additional arguments for offsets, data path, save path
     parser.add_argument('--offset_dict_path', type=str, default='others/CLIP_embeddings_centers_info.pkl', help='path to offset dictionary if needed')
-    parser.add_argument('--data_path', type=str, default='/home/ubuntu/meddataset/cholec_process/triplet_test/embedding_nips3/triplet_embedding_image_kmeans500_test_second.pkl',
+    parser.add_argument('--data_path', type=str, default='/home/ubuntu/meddataset/cholec_process/triplet_test/embedding_nips3/image_embedding_triplet_original_test.pkl',
                         help='path to the pickled input data')
-    parser.add_argument('--save_path_prefix', type=str, default='/home/ubuntu/meddataset/choelc_generate/triplet_test_comine/kmeans500',
+    parser.add_argument('--save_path_prefix', type=str, default='/home/ubuntu/meddataset/choelc_generate/triplet_test/partial/10',
                         help='where to save inference results')
     args = parser.parse_args()
 

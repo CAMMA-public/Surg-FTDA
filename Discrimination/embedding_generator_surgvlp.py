@@ -267,13 +267,13 @@ if __name__ == "__main__":
     parser.add_argument(
         '--model_path',
         type=str,
-        default='/home/ubuntu/Surg-FTDA_backup/ClipMed/nips_v3.tar',
+        default='/home/ubuntu/ClipMed/nips_v3.tar',
         help='Path to the pretrained model.'
     )
     parser.add_argument(
         '--annotations_path',
         type=str,
-        default='/home/ubuntu/meddataset/cholec_process/phase_train/embedding/phase_train.json',
+        default='/home/ubuntu/meddataset/cholec_process/triplet_train/subset_50%.json',
         help='Path to the annotations JSON file.'
     )
     parser.add_argument(
@@ -285,15 +285,16 @@ if __name__ == "__main__":
     parser.add_argument(
         '--out_image_out_path',
         type=str,
-        default='/home/ubuntu/meddataset/meddatasetnew/train_test/embedding_phase/embedding_nipsv3_v2/embedding_image_train.pkl',
+        default='/home/ubuntu/meddataset/cholec_process/triplet_train/v2/embedding/nips3_partial/embedding_image_train50.pkl',
         help='Output path for image embeddings.'
     )
     parser.add_argument(
         '--out_text_out_path',
         type=str,
-        default='/home/ubuntu/meddataset/meddatasetnew/train_test/embedding_phase/embedding_nipsv3_v2/embedding_text_train.pkl',
+        default='/home/ubuntu/meddataset/cholec_process/triplet_train/v2/embedding/nips3_partial/embedding_text_train50.pkl',
         help='Output path for text embeddings.'
     )
+
     parser.add_argument(
         '--save_interval',
         type=int,
