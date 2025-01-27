@@ -45,9 +45,14 @@ conda activate surg-ftda
 
 Before running the code, ensure you adjust the paths for the following files in the relevant configuration files:
 
-1. **JSON Files**: Specify the dataset paths (e.g., image-text pairs, task-specific labels).
-2. **PKL Files**: Include pre-generated embeddings for text and image encoders.
-3. **PT Files**: Provide paths to the pre-trained model weights (e.g., CLIP, SurgVLP).
+1. **Processed JSON Files**: Our processed JSON files, containing image paths and corresponding annotations, are stored at the following link:  
+   [Google Drive - Processed JSON Files](https://drive.google.com/drive/folders/1NrNtcvUvMUJz23VXeyIpLMCGuux_VUgg?dmr=1&ec=wgc-drive-globalnav-goto).  
+
+2. **Cholec80 Dataset**: The Cholec80 dataset must be downloaded separately. Use the `data_process.py` script to convert the relative paths in the JSON files to absolute paths before running further tasks.
+
+3. **PKL Files**: Include pre-generated embeddings for text and image encoders.
+
+4. **PT Files**: Provide paths to the pre-trained model weights (e.g. SurgVLP).
 
 ### Caption Tasks
 
@@ -199,10 +204,17 @@ Evaluate the model’s performance on triplet or phase recognition tasks:
 
 
 ## References
-[This is the title of the paper](...)          
+[Text-driven Adaptation of Foundation Models for Few-shot Surgical Workflow Analysis](https://arxiv.org/abs/2501.09555)          
 Bibtex:
 ```bibtex
-@article{...
+@misc{chen2025textdrivenadaptationfoundationmodels,
+      title={Text-driven Adaptation of Foundation Models for Few-shot Surgical Workflow Analysis}, 
+      author={Tingxuan Chen and Kun Yuan and Vinkle Srivastav and Nassir Navab and Nicolas Padoy},
+      year={2025},
+      eprint={2501.09555},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2501.09555}, 
 }
 ```
 
