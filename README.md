@@ -207,14 +207,11 @@ Evaluate the model’s performance on triplet or phase recognition tasks:
 [Text-driven Adaptation of Foundation Models for Few-shot Surgical Workflow Analysis](https://arxiv.org/abs/2501.09555)          
 Bibtex:
 ```bibtex
-@misc{chen2025textdrivenadaptationfoundationmodels,
-      title={Text-driven Adaptation of Foundation Models for Few-shot Surgical Workflow Analysis}, 
-      author={Tingxuan Chen and Kun Yuan and Vinkle Srivastav and Nassir Navab and Nicolas Padoy},
-      year={2025},
-      eprint={2501.09555},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2501.09555}, 
+@article{chen2025text,
+  title={Text-driven Adaptation of Foundation Models for Few-shot Surgical Workflow Analysis},
+  author={Chen, Tingxuan and Yuan, Kun and Srivastav, Vinkle and Navab, Nassir and Padoy, Nicolas},
+  journal={arXiv preprint arXiv:2501.09555},
+  year={2025}
 }
 ```
 
