@@ -120,7 +120,7 @@ Use the prediction scripts to generate captions:
 Evaluate the quality of the generated captions:
 
 ```bash
-python Caption/evaluate_caption.py
+python Caption/evaluate/evaluate_caption.py
 ```
 
 ### Discrimination Tasks
