@@ -4,7 +4,7 @@
 </a>
 </div>
 
-# **Surg-FTDA: Few-shot Text-driven Adaptation of Foundation Models for Surgical Workflow Analysis**
+# **[IPCAI 2025] Surg-FTDA: Few-shot Text-driven Adaptation of Foundation Models for Surgical Workflow Analysis**
 
 _Tingxuan Chen, Kun Yuan, Vinkle Srivastav, Nassir Navab, Nicolas Padoy_
 
