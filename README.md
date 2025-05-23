@@ -6,7 +6,7 @@
 
 # **[IPCAI 2025] Surg-FTDA: Few-shot Text-driven Adaptation of Foundation Models for Surgical Workflow Analysis**
 
-_Tingxuan Chen, Kun Yuan, Vinkle Srivastav, Nassir Navab, Nicolas Padoy_
+_Tingxuan Chen, Kun Yuan, [Vinkle Srivastav](https://vinkle.github.io/), Nassir Navab, Nicolas Padoy_
 
 [![arXiv](https://img.shields.io/badge/arxiv-2307.15220-red)](https://arxiv.org/abs/2501.09555) 
 
